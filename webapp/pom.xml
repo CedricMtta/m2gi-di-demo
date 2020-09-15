@@ -18,7 +18,7 @@
         </dependency>
         <dependency>
             <groupId>com.cedricmtta</groupId>
-            <artifactId>user-preference</artifactId>
+            <artifactId>user-preference-impl</artifactId>
         </dependency>
     </dependencies>
 
