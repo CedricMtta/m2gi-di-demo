@@ -33,7 +33,12 @@
 			</dependency>
 			<dependency>
 				<groupId>com.cedricmtta</groupId>
-				<artifactId>user-preference</artifactId>
+				<artifactId>user-preference-api</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.cedricmtta</groupId>
+				<artifactId>user-preference-impl</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 		</dependencies>

@@ -9,16 +9,17 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class UserPreferenceService {
+public class UserPreferenceServiceImpl implements UserPreferenceService {
     private final UserPreferenceRepository userPreferenceRepository;
     private final UserPreferenceMapper userPreferenceMapper;
 
-    public UserPreferenceService(UserPreferenceRepository userPreferenceRepository,
+    public UserPreferenceServiceImpl(UserPreferenceRepository userPreferenceRepository,
                                  UserPreferenceMapper userPreferenceMapper) {
         this.userPreferenceRepository = userPreferenceRepository;
         this.userPreferenceMapper = userPreferenceMapper;
     }
 
+    @Override
     public List<UserPreferenceDto> findAll() {
         return userPreferenceRepository.findAll()
                 .stream()
